@@ -1,0 +1,132 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0fr;
+}
+
+/*Cabeçalho*/
+header {
+  background-color: #949b97;
+  color: #FFF;
+  border-top: 1px solid   #FFF;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+header p {
+  font-size: 24px;
+  color: #2c14e7;
+  margin-top: -20px;
+  }
+
+h1 {
+    font-size: 40px;
+    color: rgb(228, 225, 37);
+    margin-top: 20px;
+  }
+
+.banner {
+    background: url('../img/banner2.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0 45%;
+    position:relative ;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 0px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+width: 21%;
+display: inline-block;
+margin: 4% 4%;
+padding: 15px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.product-image {
+  height: 100px;
+  width: 60%; 
+  margin-bottom: 5px;
+  background-position: center;
+  background-size: cover;
+  margin-left: 20px;
+}
+
+#bike-1 {
+  background-image:url('../img/bike-1.jpg');  
+}
+
+#bike-2 {
+  background-image:url('../img/bike-2.jpg'); 
+}
+
+#bike-3 {
+  background-image:url('../img/bike-3.jpg');
+  }
+
+#bike-4 {
+  background-image:url('../img/bike-4.jpg');
+  }
+
+#bike-5 {
+  background-image:url('../img/bike-5.jpg');
+  }
+
+#bike-6 {
+  background-image:url('../img/bike-6.jpg');  
+}
+
+.card p, a, h3 {
+margin-bottom: 10px;
+margin-left: 20px;
+color: #FFF;
+}
+
+.bold {
+font-weight: 800;
+color: bold;
+}
+
+
+h3 {
+  margin-bottom: 10px;
+  color: #FFF;
+  border-left: 5px solid rgb(5, 75, 75);
+  padding-left: 7px;
+  font-size: 24px;
+}
+
+/*Footer*/
+footer {
+  background-color: #949b97;
+  color: #FFF;
+  border-top: 1px solid   #FFF;
+  text-align: center;
+  padding: 80px;
+  margin-top: 0;
+}
+
+.btn{
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #3db36d;
+  color: #FFF;
+  padding: 15px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  background-color: #80f0fd;
+}
+
